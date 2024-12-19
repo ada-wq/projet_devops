@@ -162,9 +162,4 @@ Le projet MLOps permet de créer une solution de prédiction de survie des passa
 
 N'oubliez pas de bien gérer vos secrets (par exemple via AWS Secrets Manager) et d'optimiser le modèle pour une mise en production réussie.
 
----
-
-## 6. Documentation
-
-Une documentation détaillée sur le projet est également disponible dans le fichier `docs/Doc_projet_devops.docx`.
 
