@@ -160,6 +160,6 @@ Ce fichier définit un pipeline CI/CD avec GitHub Actions. Il inclut les étapes
 
 Le projet MLOps permet de créer une solution de prédiction de survie des passagers du Titanic en utilisant Flask pour l'API, Docker pour la conteneurisation, Terraform pour l'infrastructure AWS, et Ansible pour la configuration des serveurs. Ce pipeline CI/CD assure une automatisation complète de l'intégration et du déploiement, facilitant ainsi la gestion de modèles ML en production.
 
-N'oubliez pas de bien gérer vos secrets (par exemple via AWS Secrets Manager) et d'optimiser le modèle pour une mise en production réussie.
+N'oubliez pas de bien gérer vos secrets (par exemple via AWS Secrets Manager).
 
 
