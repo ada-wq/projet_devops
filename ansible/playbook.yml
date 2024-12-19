@@ -1,0 +1,23 @@
+---
+- name: Configure ML server
+  hosts: ml_server
+  become: yes
+  tasks:
+    - name: Install Python
+      yum:
+        name: python3
+        state: present
+
+    - name: Install pip for Python 3
+      yum:
+        name: python3-pip
+        state: present
+
+    - name: Install required Python packages
+      pip:
+        name:
+          - flask
+          - pandas
+          - scikit-learn
+          - numpy
+        state: present
